@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  SpotifyClone
+
+  Created by Eren Kara on 25.11.2022.
+  
+*/
+
+"onboardTitle"="Enjoy listening to music";
+"onboardContent"="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.";

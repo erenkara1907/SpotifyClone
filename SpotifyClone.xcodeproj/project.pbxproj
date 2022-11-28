@@ -11,6 +11,18 @@
 		CEB4C6B52930C6BC003E7AC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6B42930C6BC003E7AC6 /* ContentView.swift */; };
 		CEB4C6B72930C6BD003E7AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C6B62930C6BD003E7AC6 /* Assets.xcassets */; };
 		CEB4C6BA2930C6BD003E7AC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C6B92930C6BD003E7AC6 /* Preview Assets.xcassets */; };
+		CEB4C6C92930D5F2003E7AC6 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6C82930D5F2003E7AC6 /* SplashView.swift */; };
+		CEB4C6CB2930D671003E7AC6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C6CA2930D671003E7AC6 /* Colors.xcassets */; };
+		CEB4C6CD2930D67B003E7AC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C6CC2930D67B003E7AC6 /* Images.xcassets */; };
+		CEB4C6D02930D78C003E7AC6 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6CF2930D78C003E7AC6 /* Images.swift */; };
+		CEB4C6D42930DEB5003E7AC6 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6D32930DEB5003E7AC6 /* OnboardView.swift */; };
+		CEB4C6DA2930E3CC003E7AC6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB4C6DC2930E3CC003E7AC6 /* Localizable.strings */; };
+		CEB4C6DF2930E46D003E7AC6 /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6DE2930E46D003E7AC6 /* LocaleKeys.swift */; };
+		CEB4C6E22930E583003E7AC6 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6E12930E583003E7AC6 /* TitleModifier.swift */; };
+		CEB4C6E52930EACE003E7AC6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6E42930EACE003E7AC6 /* Colors.swift */; };
+		CEB4C6E72930EC22003E7AC6 /* DescriptionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6E62930EC22003E7AC6 /* DescriptionModifier.swift */; };
+		CEB4C6E92930F0B1003E7AC6 /* ButtonTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6E82930F0B1003E7AC6 /* ButtonTextModifier.swift */; };
+		CEB4C6EB2930F19C003E7AC6 /* DynamicSize+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB4C6EA2930F19C003E7AC6 /* DynamicSize+GeometryProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,20 @@
 		CEB4C6B42930C6BC003E7AC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEB4C6B62930C6BD003E7AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB4C6B92930C6BD003E7AC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEB4C6C22930C91D003E7AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEB4C6C82930D5F2003E7AC6 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		CEB4C6CA2930D671003E7AC6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		CEB4C6CC2930D67B003E7AC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEB4C6CF2930D78C003E7AC6 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		CEB4C6D32930DEB5003E7AC6 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		CEB4C6DB2930E3CC003E7AC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEB4C6DD2930E426003E7AC6 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEB4C6DE2930E46D003E7AC6 /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
+		CEB4C6E12930E583003E7AC6 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		CEB4C6E42930EACE003E7AC6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CEB4C6E62930EC22003E7AC6 /* DescriptionModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionModifier.swift; sourceTree = "<group>"; };
+		CEB4C6E82930F0B1003E7AC6 /* ButtonTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTextModifier.swift; sourceTree = "<group>"; };
+		CEB4C6EA2930F19C003E7AC6 /* DynamicSize+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DynamicSize+GeometryProxy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +77,13 @@
 		CEB4C6B12930C6BB003E7AC6 /* SpotifyClone */ = {
 			isa = PBXGroup;
 			children = (
+				CEB4C6C62930D5A1003E7AC6 /* Resources */,
+				CEB4C6C52930D599003E7AC6 /* Utils */,
+				CEB4C6C42930D593003E7AC6 /* Product */,
+				CEB4C6C32930D58B003E7AC6 /* Feature */,
+				CEB4C6C22930C91D003E7AC6 /* Info.plist */,
 				CEB4C6B22930C6BC003E7AC6 /* SpotifyCloneApp.swift */,
 				CEB4C6B42930C6BC003E7AC6 /* ContentView.swift */,
-				CEB4C6B62930C6BD003E7AC6 /* Assets.xcassets */,
 				CEB4C6B82930C6BD003E7AC6 /* Preview Content */,
 			);
 			path = SpotifyClone;
@@ -65,6 +95,103 @@
 				CEB4C6B92930C6BD003E7AC6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEB4C6C32930D58B003E7AC6 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6D12930DE9F003E7AC6 /* Authentication */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		CEB4C6C42930D593003E7AC6 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		CEB4C6C52930D599003E7AC6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6E32930EAC4003E7AC6 /* Extension */,
+				CEB4C6E02930E56A003E7AC6 /* Modifiers */,
+				CEB4C6D72930E35E003E7AC6 /* Locale */,
+				CEB4C6CE2930D782003E7AC6 /* Enums */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CEB4C6C62930D5A1003E7AC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6B62930C6BD003E7AC6 /* Assets.xcassets */,
+				CEB4C6CA2930D671003E7AC6 /* Colors.xcassets */,
+				CEB4C6CC2930D67B003E7AC6 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEB4C6C72930D5DE003E7AC6 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6C82930D5F2003E7AC6 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		CEB4C6CE2930D782003E7AC6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6CF2930D78C003E7AC6 /* Images.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CEB4C6D12930DE9F003E7AC6 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6D22930DEAA003E7AC6 /* Onboard */,
+				CEB4C6C72930D5DE003E7AC6 /* Splash */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CEB4C6D22930DEAA003E7AC6 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6D32930DEB5003E7AC6 /* OnboardView.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		CEB4C6D72930E35E003E7AC6 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6DC2930E3CC003E7AC6 /* Localizable.strings */,
+				CEB4C6DE2930E46D003E7AC6 /* LocaleKeys.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		CEB4C6E02930E56A003E7AC6 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6E12930E583003E7AC6 /* TitleModifier.swift */,
+				CEB4C6E62930EC22003E7AC6 /* DescriptionModifier.swift */,
+				CEB4C6E82930F0B1003E7AC6 /* ButtonTextModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		CEB4C6E32930EAC4003E7AC6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEB4C6E42930EACE003E7AC6 /* Colors.swift */,
+				CEB4C6EA2930F19C003E7AC6 /* DynamicSize+GeometryProxy.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +236,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = CEB4C6A62930C6BB003E7AC6;
 			productRefGroup = CEB4C6B02930C6BB003E7AC6 /* Products */;
@@ -125,8 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB4C6DA2930E3CC003E7AC6 /* Localizable.strings in Resources */,
 				CEB4C6BA2930C6BD003E7AC6 /* Preview Assets.xcassets in Resources */,
+				CEB4C6CD2930D67B003E7AC6 /* Images.xcassets in Resources */,
 				CEB4C6B72930C6BD003E7AC6 /* Assets.xcassets in Resources */,
+				CEB4C6CB2930D671003E7AC6 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,18 +268,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB4C6E22930E583003E7AC6 /* TitleModifier.swift in Sources */,
+				CEB4C6E52930EACE003E7AC6 /* Colors.swift in Sources */,
 				CEB4C6B52930C6BC003E7AC6 /* ContentView.swift in Sources */,
+				CEB4C6E92930F0B1003E7AC6 /* ButtonTextModifier.swift in Sources */,
+				CEB4C6D42930DEB5003E7AC6 /* OnboardView.swift in Sources */,
+				CEB4C6D02930D78C003E7AC6 /* Images.swift in Sources */,
+				CEB4C6DF2930E46D003E7AC6 /* LocaleKeys.swift in Sources */,
+				CEB4C6E72930EC22003E7AC6 /* DescriptionModifier.swift in Sources */,
 				CEB4C6B32930C6BC003E7AC6 /* SpotifyCloneApp.swift in Sources */,
+				CEB4C6EB2930F19C003E7AC6 /* DynamicSize+GeometryProxy.swift in Sources */,
+				CEB4C6C92930D5F2003E7AC6 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEB4C6DC2930E3CC003E7AC6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB4C6DB2930E3CC003E7AC6 /* en */,
+				CEB4C6DD2930E426003E7AC6 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CEB4C6BB2930C6BD003E7AC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -209,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -269,10 +423,16 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpotifyClone/Preview Content\"";
 				DEVELOPMENT_TEAM = GJDD34W8Q6;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifyClone/Preview\\ Content",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpotifyClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -298,10 +458,16 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpotifyClone/Preview Content\"";
 				DEVELOPMENT_TEAM = GJDD34W8Q6;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotifyClone/Preview\\ Content",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpotifyClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+    @State var endSplash = false
+    @State var animate = false
+    
+    func animateSplash() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.55) {
+            withAnimation(.easeIn(duration: 0.55)) {
+                animate.toggle()
+            }
+            
+            withAnimation(.easeOut(duration: 0.45)) {
+                endSplash.toggle()
+            }
         }
-        .padding()
+    }
+    
+    var body: some View {
+        ZStack {
+            OnboardView()
+            
+            SplashView()
+                .onAppear(perform: animateSplash)
+                .opacity(endSplash ? 0.0 : 1.0)
+        } // ZStack
     }
 }
 
