@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ButtonTextModifier: ViewModifier {
     var fontSize: Double
-    
+
     func body(content: Content) -> some View {
         return content
             .foregroundColor(.white)

@@ -7,9 +7,14 @@
 
 import SwiftUI
 
-extension Color {
-    public static var colorAppBackground: Color { Color("appBackground") }
-    public static var colorButton: Color { Color("button") }
-    public static var colorTitle: Color { Color("title") }
-    public static var colorDescription: Color { Color("description") }
+public extension Color {
+    static var colorAppBackground: Color { Color("appBackground") }
+    static var colorButton: Color { Color("button") }
+    static var colorTitle: Color { Color("title") }
+    static var colorDescription: Color { Color("description") }
+    static var colorDisabledButton: Color { Color("disabledButton") }
+    static var colorBackButton: Color { Color("backButton") }
+    static var colorHintText: Color { Color("hintText") }
+    static var colorSecondary: Color { Color("secondary") }
+    static var colorIcon: Color { Color("icon") }
 }

@@ -6,5 +6,55 @@
   
 */
 
+// Onboard
 "onboardTitle"="Enjoy listening to music";
 "onboardContent"="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.";
+"getStarted"="Get Started";
+
+// Choose Mode
+"chooseMode"="Choose Mode";
+"darkMode"="Dark Mode";
+"lightMode"="Light Mode";
+"continue"="Continue";
+
+// Auth
+"authTitle"="Enjoy Listening To Music";
+"authContent"="Spotify is a proprietary Swedish audio streaming and media services provider";
+"register"="Register";
+"signIn"="Sign in";
+
+// Sign In
+"signInTitle"="Sign In";
+"signInDescription"="If You Need Any Support [Click Here](www.google.com)";
+"email"="Enter Username Or Email";
+"password"="Password";
+"recoveryPassword"="Recovery Password";
+"registerNow"="Not A Member ? [Register Now](www.google.com)";
+"or"="Or";
+
+// Register
+"registerTitle"="Register";
+"registerDescription"="If You Need Any Support [Click Here](www.google.com)";
+"fullname"="Full Name";
+"registerEmail"="Enter Email";
+"registerPassword"="Password";
+"createAccount"="Create Account";
+"haveAccount"="Do You Have An Account? [Sign In](wwww.google.com)";
+
+// Home
+"news"="News";
+"video"="Video";
+"artists"="Artists";
+"podcast"="Podcast";
+"playlist"="Playlist";
+"seeMore"="See More";
+
+// Detail
+"nowPlaying"="Now Playing";
+"lyrics"="Lyrics";
+
+// Favorite
+"profile"="Profile";
+"follower"="Follower";
+"follow"="Follow";
+"publicPlay"="Public Playlists";

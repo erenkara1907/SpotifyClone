@@ -14,11 +14,15 @@ extension GeometryProxy {
     func dynamicHeight(height: Double) -> Double {
         return size.height * height
     }
-    
+
     /// Dynamic width by device
     /// - Parameter width: Percent value
     /// - Returns: Calculated value for device width
     func dynamicWidth(width: Double) -> Double {
         return size.width * width
+    }
+
+    func topPadding() -> Double {
+        return size.height * 0.065
     }
 }

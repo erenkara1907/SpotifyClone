@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DescriptionModifier: ViewModifier {
     var fontSize: Double
-    
+
     func body(content: Content) -> some View {
         return content
             .foregroundColor(.colorDescription)

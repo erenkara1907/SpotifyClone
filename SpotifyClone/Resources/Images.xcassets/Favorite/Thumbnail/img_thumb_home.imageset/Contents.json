@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "img_thumb_home.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

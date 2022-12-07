@@ -6,5 +6,55 @@
   
 */
 
+// Onboard
 "onboardTitle"="Müzik dinlemenin keyfini çıkarın";
 "onboardContent"="Müşteri çok önemlidir, müşteri müşteri tarafından takip edilecektir. Oklar için net ama fazsız. Biraz çikolata ile süslemenin zamanı geldi.";
+"getStarted"="Hadi Başlayalım";
+
+// Choose Mode 
+"chooseMode"="Mod Seçiniz";
+"darkMode"="Koyu Mod";
+"lightMode"="Açık Mod";
+"continue"="Devam Et";
+
+// Auth
+"authTitle"="Müzik dinlemenin keyfini çıkarın";
+"authContent"="Spotify, tescilli bir İsveç ses akışı ve medya hizmetleri sağlayıcısıdır";
+"register"="Kayıt ol";
+"signIn"="Giriş yap";
+
+// Sign In
+"signInTitle"="Giriş Yap";
+"signInDescription"="Herhangi Bir Desteğe İhtiyacınız Varsa [Buraya Tıklayın](www.google.com)";
+"email"="Kullanıcı Adı veya E-posta Girin";
+"password"="Parola";
+"recoveryPassword"="Kurtarma Şifresi";
+"registerNow"="Üye değil misin ? [Şimdi Üye Ol](www.google.com)";
+"or"="Veya";
+
+// Register
+"registerTitle"="Kayıt Ol";
+"registerDescription"="Herhangi Bir Desteğe İhtiyacınız Varsa [Buraya Tıklayın](www.google.com)";
+"fullname"="Tam Adınız";
+"registerEmail"="Email Girin";
+"registerPassword"="Parola";
+"createAccount"="Hesabımı Oluştur";
+"haveAccount"="Hesabınız Var Mı? [Giriş Yap](wwww.google.com)";
+
+// Home
+"news"="Yeniler";
+"video"="Video";
+"artists"="Sanatçılar";
+"podcast"="Podcast";
+"playlist"="Oynatma Listesi";
+"seeMore"="Daha Fazla Gör";
+
+// Detail
+"nowPlaying"="Şimdi Oynuyor";
+"lyrics"="Şarkı sözleri";
+
+// Favorite
+"profile"="Profil";
+"follower"="Takipçi";
+"follow"="Takip";
+"publicPlay"="Açık Oynatma Listeleri";

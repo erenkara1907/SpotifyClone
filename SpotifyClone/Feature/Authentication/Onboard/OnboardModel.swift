@@ -8,5 +8,5 @@
 import Foundation
 
 struct OnboardModel: Identifiable {
-    var id: UUID = UUID()
+    var id: UUID = .init()
 }

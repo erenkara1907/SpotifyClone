@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TitleModifier: ViewModifier {
     var fontSize: Double
-    
+
     func body(content: Content) -> some View {
         return content
             .foregroundColor(.colorTitle)
