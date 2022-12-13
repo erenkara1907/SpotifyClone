@@ -101,6 +101,7 @@ private struct HeaderView: View {
         .padding(.top, geometry.topPadding())
         .padding(.horizontal, 29.0)
         .background(Color.colorSecondary)
+        .cornerRadius(60.0, corners: [.bottomLeft, .bottomRight])
         .animation(.linear)
     }
 }

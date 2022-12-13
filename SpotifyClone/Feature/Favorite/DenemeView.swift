@@ -91,13 +91,14 @@ struct DenemeView: View {
                     
                 } // LazyVStack
             } // VStack
+            .background(Color.colorAppBackground)
         } // ScrollView
         .overlay(content: {
-                Rectangle()
-                        .fill(.black)
-                        .frame(height: 50.0)
-                        .frame(maxHeight: .infinity, alignment: .top)
-                    .opacity(headerOffsets.0 < 5.0 ? 1.0 : 0.0)
+            Rectangle()
+                .fill(Color.colorAppBackground)
+                .frame(height: 50.0)
+                .frame(maxHeight: .infinity, alignment: .top)
+                .opacity(headerOffsets.0 < 5.0 ? 1.0 : 0.0)
         })
         .coordinateSpace(name: "SCROLL")
         .ignoresSafeArea(.container, edges: .vertical)
@@ -261,6 +262,7 @@ struct DenemeView: View {
             .padding(.top, 25.0)
             .padding(.bottom, 5.0)
         } // ScrollView
+        .background(Color.colorAppBackground)
     }
 }
 

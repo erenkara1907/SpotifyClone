@@ -26,9 +26,9 @@ struct PagesView: View {
         case .discovery:
             Text("Discovery")
         case .favorite:
-            FavoriteView()
+            DenemeView()
         case .profile:
-            Text("Profile")
+            FavoriteView()
         }
     }
 }
